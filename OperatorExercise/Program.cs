@@ -6,8 +6,7 @@
     static void Main(string[] args)
         {
 
-            //Exercise 1 STARTS
-
+            //Exercise 1 STARTS*****
             //Values
             int x = 23;
             int y = 4;
@@ -31,11 +30,21 @@
             Console.WriteLine($"Modulus: x % y = {x % y}.\n");
 
             Console.WriteLine($"The division result for variable quotient of a and b = {quotient}");
-            Console.WriteLine($"The modulus result for variable remainder of a and b = {remainder}");
+            Console.WriteLine($"The modulus result for variable remainder of a and b = {remainder}\n \n");
+            //Exercise 1 ENDS*****
 
+
+            //Exercise 2 STARTS*****
+
+            Console.WriteLine("What is the radius of your circle?");
+            var radius = double.Parse(Console.ReadLine());
+
+            double area = Math.PI * Math.Pow(radius, 2);
+
+            Console.WriteLine($"The area of a circle with a radius of {radius} is {area}");
+            //Exercise 2 ENDS*****
         }
 
- 
     }
 }
 
