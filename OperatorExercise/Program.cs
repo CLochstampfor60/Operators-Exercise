@@ -30,8 +30,8 @@
             Console.WriteLine($"Division: x / y = {x / y}.");
             Console.WriteLine($"Modulus: x % y = {x % y}.\n");
 
-            Console.WriteLine($"The result of the quotient of a and b = {quotient}");
-            Console.WriteLine($"The result of the remainder of a and b = {remainder}");
+            Console.WriteLine($"The division result for variable quotient of a and b = {quotient}");
+            Console.WriteLine($"The modulus result for variable remainder of a and b = {remainder}");
 
         }
 
