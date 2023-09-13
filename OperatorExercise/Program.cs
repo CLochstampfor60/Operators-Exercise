@@ -39,7 +39,7 @@
             Console.WriteLine("What is the radius of your circle?");
             var radius = double.Parse(Console.ReadLine());
 
-            double area = Math.PI * Math.Pow(radius, 2);
+            var area = Math.PI * Math.Pow(radius, 2);
 
             Console.WriteLine($"The area of a circle with a radius of {radius} is {area}");
             //Exercise 2 ENDS*****
